@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mad Libs</string>
+    <string name="enterMessage">Enter a Message</string>
+    <string name="buttonSend">Send</string>
+    <string name="enterAnimals">Enter an Animal (plural)</string>
+    <string name="buttonSquanch">Squanch!</string>
+    <string name="enterFruit">Enter a Fruit (singular)</string>
+    <string name="enterToy">Enter a Kids\' Toy (plural)</string>
+    <string name="enterCrisis">Enter a Global Crisis</string>
+    <string name="enterDictator">Enter the Name of a Dictator</string>
+    <string name="enterInsult">Enter a Nonsense Insult</string>
+    <string name="enterBBQ">Enter a BBQ Food (singular)</string>
+    <string name="enterOrgan">Enter the Name of an Organ</string>
+    <string name="enterStore">Enter the Name of an Electronics Store</string>
+    <string name="enterPasta">Enter a Type of Pasta</string>
+</resources>
