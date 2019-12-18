@@ -31,7 +31,7 @@
                 app:srcCompat="@drawable/rm" />
 
             <EditText
-                android:id="@+id/libs1"
+                android:id="@+id/animals"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -40,14 +40,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterAnimals"
                 android:inputType="textPersonName"
-                android:text="@string/enterAnimals"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
             <EditText
-                android:id="@+id/libs2"
+                android:id="@+id/fruit"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -56,14 +56,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterFruit"
                 android:inputType="textPersonName"
-                android:text="@string/enterFruit"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs1" />
+                app:layout_constraintTop_toBottomOf="@+id/animals" />
 
             <EditText
-                android:id="@+id/libs3"
+                android:id="@+id/toys"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -72,14 +72,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterToy"
                 android:inputType="textPersonName"
-                android:text="@string/enterToy"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs2" />
+                app:layout_constraintTop_toBottomOf="@+id/fruit" />
 
             <EditText
-                android:id="@+id/libs4"
+                android:id="@+id/crisis"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -88,14 +88,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterCrisis"
                 android:inputType="textPersonName"
-                android:text="@string/enterCrisis"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs3" />
+                app:layout_constraintTop_toBottomOf="@+id/toys" />
 
             <EditText
-                android:id="@+id/libs5"
+                android:id="@+id/dictator"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -104,14 +104,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterDictator"
                 android:inputType="textPersonName"
-                android:text="@string/enterDictator"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs4" />
+                app:layout_constraintTop_toBottomOf="@+id/crisis" />
 
             <EditText
-                android:id="@+id/libs6"
+                android:id="@+id/insult"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -120,14 +120,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterInsult"
                 android:inputType="textPersonName"
-                android:text="@string/enterInsult"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs5" />
+                app:layout_constraintTop_toBottomOf="@+id/dictator" />
 
             <EditText
-                android:id="@+id/libs7"
+                android:id="@+id/bbq"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -136,14 +136,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterBBQ"
                 android:inputType="textPersonName"
-                android:text="@string/enterBBQ"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs6" />
+                app:layout_constraintTop_toBottomOf="@+id/insult" />
 
             <EditText
-                android:id="@+id/libs8"
+                android:id="@+id/organ"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -152,14 +152,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterOrgan"
                 android:inputType="textPersonName"
-                android:text="@string/enterOrgan"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs7" />
+                app:layout_constraintTop_toBottomOf="@+id/bbq" />
 
             <EditText
-                android:id="@+id/libs9"
+                android:id="@+id/store"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -168,14 +168,14 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterStore"
                 android:inputType="textPersonName"
-                android:text="@string/enterStore"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs8" />
+                app:layout_constraintTop_toBottomOf="@+id/organ" />
 
             <EditText
-                android:id="@+id/libs10"
+                android:id="@+id/pasta"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -184,12 +184,12 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:ems="10"
+                android:hint="@string/enterPasta"
                 android:inputType="textPersonName"
-                android:text="@string/enterPasta"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs9" />
+                app:layout_constraintTop_toBottomOf="@+id/store" />
 
             <Button
                 android:id="@+id/button"
@@ -208,7 +208,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/libs10" />
+                app:layout_constraintTop_toBottomOf="@+id/pasta" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

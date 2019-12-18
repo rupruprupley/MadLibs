@@ -17,11 +17,21 @@ class MainActivity : AppCompatActivity() {
 
     /** Called when the user taps the Send button */
     fun sendMessage(view: View) {
-        val editText = findViewById<EditText>(R.id.libs1)
+        val editText = findViewById<EditText>(R.id.animals)
         val message = editText.text.toString()
         val intent = Intent(this, DisplayActivity::class.java).apply {
             putExtra(EXTRA_MESSAGE, message)
         }
+        val animals = findViewById<EditText>(R.id.animals)
+        val fruit = findViewById<EditText>(R.id.fruit)
+        val toys = findViewById<EditText>(R.id.toys)
+        val crisis = findViewById<EditText>(R.id.crisis)
+        val dictator = findViewById<EditText>(R.id.dictator)
+        val insult = findViewById<EditText>(R.id.insult)
+        val bbq = findViewById<EditText>(R.id.bbq)
+        val organ = findViewById<EditText>(R.id.organ)
+        val store = findViewById<EditText>(R.id.store)
+        val pasta = findViewById<EditText>(R.id.pasta)
         startActivity(intent)
     }
 }

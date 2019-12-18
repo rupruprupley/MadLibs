@@ -13,4 +13,14 @@
     <string name="enterOrgan">Enter the Name of an Organ</string>
     <string name="enterStore">Enter the Name of an Electronics Store</string>
     <string name="enterPasta">Enter a Type of Pasta</string>
+    <string name="line1">Rick : Hey Morty, take this.</string>
+    <string name="line2">Rick hands Morty a pill. Morty takes it.</string>
+    <string name="line3">Morty : What\'d you just give me, Rick?</string>
+    <string name="line4">Rick : It\'s a Mad Libs pill, Morty. It m-makes, makes-- * BURP * it makes you talk like you\'re in a Mad Libs, Morty.</string>
+    <string name="line5">Morty : What! But I have school in five</string>
+    <string name="line6">Morty grabs his mouth.</string>
+    <string name="line7">Morty : Why did I just say</string>
+    <string name="line8">Rick : I already told you, Morty, it\'s a Mad Libs pill! You\'re a Mad Libs man now!</string>
+    <string name="line9">Morty : But I don\'t wanna be a Mad Libs</string>
+    <string name="line10">Rick : Quit running your mouth, Morty! The person who\'s writing this Mad Libs thing wants some entertainment, Morty, so you have to do it! Don\'t make it so easy for these, these people to make you their puppet!</string>
 </resources>
