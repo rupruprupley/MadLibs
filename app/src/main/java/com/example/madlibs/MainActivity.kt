@@ -17,11 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     /** Called when the user taps the Send button */
     fun sendMessage(view: View) {
-        val editText = findViewById<EditText>(R.id.animals)
-        val message = editText.text.toString()
-        val intent = Intent(this, DisplayActivity::class.java).apply {
-            putExtra(EXTRA_MESSAGE, message)
-        }
+        //val editText = findViewById<EditText>(R.id.animals)
         val animals = findViewById<EditText>(R.id.animals)
         val fruit = findViewById<EditText>(R.id.fruit)
         val toys = findViewById<EditText>(R.id.toys)
@@ -32,6 +28,10 @@ class MainActivity : AppCompatActivity() {
         val organ = findViewById<EditText>(R.id.organ)
         val store = findViewById<EditText>(R.id.store)
         val pasta = findViewById<EditText>(R.id.pasta)
+        val message = editText.text.toString()
+        val intent = Intent(this, DisplayActivity::class.java).apply {
+            putExtra(EXTRA_MESSAGE, message)
+        }
         startActivity(intent)
     }
 }
